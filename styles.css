@@ -14,10 +14,12 @@ height: 100%;
 background-color: black;
 padding: 0;
 margin: 0;
+
 }
 
 .main-card-container{
     display: flex;
+    
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -27,7 +29,7 @@ margin: 0;
 .main-card{
     text-align: center;
     justify-content: center;
-    
+    display: inline-block;
     background-color:  #1a1a1a;
     height: 650px;
     width: 420px;
@@ -101,7 +103,11 @@ p{
 }
 
 .attribution{
+    font-size: 15px;
+    position: absolute;
     color: white;
+    top: 900px;
+   
 }
 
 a{
